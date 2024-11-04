@@ -5,12 +5,12 @@ After each task, check the box by turning the `[ ]` into `[X]`.
 
 ## Tasks
 
-- [ ] Restore the `{renv}` environment.
-- [ ] Fix the name of the dataset file.
-- [ ] User `{here}` instead of the current path to the dataset.
-- [ ] Fix bug.
-- [ ] Add comments to the script, using hierarchies.
-- [ ] Change the name of the dataframe
+- [x] Restore the `{renv}` environment.
+- [x] Fix the name of the dataset file.
+- [x] User `{here}` instead of the current path to the dataset.
+- [x] Fix bug.
+- [x] Add comments to the script, using hierarchies.
+- [x] Change the name of the dataframe
 - [ ] Fix the spaces and punctuation
 - [ ] Use `readr::read_csv()` to read the file and return a tibble.
 - [ ] Use the pipe and `dplyr::mutate()` to modify the character columns into factors.
