@@ -1,7 +1,7 @@
-setwd("../../montesmariana/r-best-practices-exercises/data")
+# setwd("../../montesmariana/r-best-practices-exercises/data")
 
-df<-read.csv( "Flight Subset 2013.csv")
-df$month_name = month.name[df$month]
+df<-read.csv(here("exercises", "data", "Flight Subset 2013.csv"))
+df$month_name <- month.name[df$month]
 df$carrier <- as.factor(df$carrier)
 df$tailnum <- as.factor(df$tailnum)
 df$origin <- as.factor(df$origin)
